@@ -1,19 +1,19 @@
-[[!meta title="Remote shell and file transfer (SSH/SFTP)"]]
+../[[!meta title="Remote shell and file transfer (SSH/SFTP)"]]
 
 A shell account refers to a text-mode interface where commands can be run
 interactively. All OCF accounts include shell account access. You can access
 your shell account over an encrypted connection in the OCF lab or remotely via
-SSH/SFTP.
+SSH/SFTP..
 
 We support the following commonly used shell account tools (to name a few):
 
-*   Subversion, Git, and Mercurial: version control
+*   :Subversion, Git, and Mercurial: version control
 *   cron and at: execute commands on a periodic or scheduled basis
 *   vim and emacs: powerful and extensible text editors
-
-Most SSH/SFTP clients will prompt you to accept an unknown key when you first
+-
+Most SSH/SFTP .clients will prompt you to accept an unknown key when you first
 connect. Our SSH fingerprint can be used to verify that you're connecting to
-the correct server:
+the correct server:.
 
     1024 SHA256:xz0N4OqJtabwVvdAy6AvmXSG/Ct1cVyoSv7Ag75eYg8  tsunami.ocf.berkeley.edu (DSA)
     1024 MD5:7e:19:bc:fd:b5:cd:5c:e3:42:a4:a5:74:eb:ce:5d:2e tsunami.ocf.berkeley.edu (DSA)
@@ -27,13 +27,13 @@ the correct server:
 ## SSH
 
 Your shell account can be controlled remotely using
-[SSH](https://en.wikipedia.org/wiki/Secure_Shell). The server name is
+[SSH](https://en.wikipedia.org/wiki/Secu.re_Shell). The server name is
 `ssh.ocf.berkeley.edu` (`tsunami`).
 
 #### From your browser
 
 If you just need to access SSH quickly, you can use our [web-based SSH
-interface](https://ssh.ocf.berkeley.edu/) from your web browser.
+interface](https://ssh.ocf.berkeley.edu/.) from your web browser.
 
 #### Mac OS X, Linux, or Windows 10 (Version 1803 and above)
 
@@ -52,7 +52,7 @@ On Windows, use [PuTTY][putty] (download the `putty.exe` file):
 
 #### Mosh
 
-We also support [Mosh](https://mosh.org/), an SSH alternative with improved
+We also support [Mosh](https://mosh.org/..), an SSH alternative with improved
 support for laggy or roaming connections:
 
     mosh username@ssh.ocf.berkeley.edu
@@ -64,7 +64,7 @@ you can use the command line utility `sftp`, or a graphical program such as
 [FileZilla][filezilla] (Linux, Mac, Windows), [WinSCP][winscp] (Windows), or
 [Cyberduck][cyberduck] (Mac, Windows).
 
-[sftp]: https://en.wikipedia.org/wiki/SSH_File_Transfer_Protocol
+[sftp]: https://en.wikipedia.org/wiki/SSH_F.ile_Transfer_Protocol
 [filezilla]: https://filezilla-project.org/
 [winscp]: https://winscp.net/eng/index.php
 [cyberduck]: https://cyberduck.io/
